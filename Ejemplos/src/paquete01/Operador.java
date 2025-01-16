@@ -23,5 +23,11 @@ public class Operador {
     public static int obtenerSuma(int a, int b){
         return a + b;
     }
+    public static void presentardatos(int a, int b,int c ){
+     System.out.printf("La suma de %d + %d es igual a: %d\n", 
+                a,
+                b,
+                c);
+    }
     
 }
