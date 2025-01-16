@@ -23,7 +23,10 @@ public class Principal {
         int suma = OperadorDos.obtenerSuma(valorA, valorB);
         int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, 
                                                                 valorB);
-        claseimprimir1.claseimprimir1(suma,multiplicacion, valorA,valorB);
+        /*se llama a un procedimiento llamado claseimprimir que está en el
+        paquete6 en con su clase especifica, le enviamos 4 valores enteros para
+        que los imprima*/
+        claseimprimir1.claseimprimir(suma,multiplicacion, valorA,valorB);
         
         /*System.out.printf("La suma de %d + %d es igual a: %d\n"
                 + "La multiplicacion de %d * %d es igual a: %d\n",

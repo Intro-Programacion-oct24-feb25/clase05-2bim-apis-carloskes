@@ -9,7 +9,7 @@ package paquete06;
  * @author utpl
  */
 public class claseimprimir1 {
-    public static void claseimprimir1(int d, int j, int valorA, int valorB) {
+    public static void claseimprimir(int d, int j, int valorA, int valorB) {
         System.out.printf("La suma de %d + %d es igual a: %d\n"
                 + "La multiplicacion de %d * %d es igual a: %d\n",
                 valorA,valorB,
